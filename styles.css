@@ -1,0 +1,137 @@
+body {
+  background-image: url(https://thumbs.dreamstime.com/b/vector-travel-pattern-seamless-background-illustration-113988424.jpg);
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.country-name{
+  color: rgb(254, 254, 254);
+  font-weight: bold;
+}
+
+footer, header{
+  padding: 1rem;
+  background-color: rgb(235, 179, 235);
+  color:white;
+  font-size: 1.2rem;
+}
+
+.country-container {
+  background-color: rgb(48, 181, 174);
+  padding: 1rem;
+  margin: 4rem;
+  
+}
+
+.city-container {
+  background-color: rgb(162, 224, 76);
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 3rem;
+}
+.form-container {
+  background-color: rgb(48, 181, 174);
+  padding: 1rem;
+  margin: 4rem;
+  
+  
+}
+
+.image-container {
+  margin: 2rem;
+  text-align: center;
+}
+
+.image-container > img {
+  width: 100%;
+  border-radius: 8px;
+  max-width: 1080px;
+}
+
+#page-title {
+  font-size: 5rem;
+  font-style: italic;
+  text-align: center;
+  padding-top: 2rem;
+
+}
+
+#comments{
+  font-size: 1.5rem;
+}
+
+nav{
+  text-align: center;
+}
+
+.nav-item, .nav-link{
+  text-decoration: none;
+  display: inline;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: white;
+  font-weight: bold;
+}
+
+#menu-container {
+  justify-content: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-item {
+  flex: 50%;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media screen and (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and  (min-width: 801px) {
+  .flex-container {
+    flex-direction: row;
+  }
+
+  .city-container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+.button {
+  background-color: rgb(235, 179, 235); /* Green */
+  border: none;
+  color: black;
+  padding: 14px 40px;
+  border-radius: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 1rem 2rem;
+  cursor: pointer;
+}
+
+#comments > form > label {
+  margin-left: 2rem;
+  padding: 12px;
+  
+}
+
+input[type=text], select, textarea {
+  width: 80%;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
